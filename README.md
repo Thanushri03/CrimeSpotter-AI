@@ -14,7 +14,7 @@ Built with **TensorFlow**,**Keras**, and **OpenCV**, this solution addresses cri
 
 ---
 
-##🛠️ Features
+## 🛠️ Features
 
 * 🧠**CNN-based detection** : for accurate anomaly classification across multiple categories
 * 🚨**Multi-class detection**: Fighting, Assault, Burglary, Robbery, Shoplifting, Explosions, and more
@@ -24,7 +24,7 @@ Built with **TensorFlow**,**Keras**, and **OpenCV**, this solution addresses cri
 
 ---
 
-##🔁 Workflow
+## 🔁 Workflow
 
 ```
 1.Upload surveillance footage or image sequences
@@ -38,7 +38,7 @@ Built with **TensorFlow**,**Keras**, and **OpenCV**, this solution addresses cri
 
 ---
 
-##🚀 Technologies Used
+## 🚀 Technologies Used
 
 *🧠 **TensorFlow/Keras **: Deep learning framework for model training
 *🖼️  **OpenCV **: Image processing and video handling
@@ -49,7 +49,7 @@ Built with **TensorFlow**,**Keras**, and **OpenCV**, this solution addresses cri
 
 ---
 
-##🧪 Sample Detection Code
+## 🧪 Sample Detection Code
 ```python
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -84,7 +84,7 @@ print(f"Status: {result}, Confidence: {confidence:.2f}")
 
 ---
 
-##📈 Model Performance
+## 📈 Model Performance
 
 *✅ **Accuracy **: 80% achieved on test dataset
 *📊 **Precision **: 82% for anomaly detection
@@ -93,7 +93,7 @@ print(f"Status: {result}, Confidence: {confidence:.2f}")
 
 ---
 
-##🖼️ Outputs
+## 🖼️ Outputs
 
 Detection Performance
 
