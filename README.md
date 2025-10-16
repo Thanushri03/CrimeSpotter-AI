@@ -3,7 +3,7 @@
 
 ---
 
-##📌 Overview
+## 📌 Overview
 
 **CrimeSpotter**  is an AI-powered surveillance monitoring tool that performs:
 
