@@ -97,11 +97,11 @@ print(f"Status: {result}, Confidence: {confidence:.2f}")
 
 Detection Performance :
 
-Sample Scenario 1
+**Sample Scenario 1**
 
  ![Alt text](Sample2.png)
  
-Sample Scenario 2
+**Sample Scenario 2**
  
  ![Alt text](sample1.png)
 
