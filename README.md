@@ -98,6 +98,8 @@ print(f"Status: {result}, Confidence: {confidence:.2f}")
 Detection Performance
 
  ![Alt text](Sample2.png)
+
+ 
  ![Alt text](sample1.png)
 
 
