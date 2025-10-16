@@ -93,12 +93,11 @@ Detection Performance
 
 1) Normal
 
- ![Alt text](sample1.png)
-
+ ![Alt text](Sample2.png)
+ 
 3) Anomaly
 
-![Alt text](Sample2.png)
-
+![Alt text](sample1.png)
 
 
 
