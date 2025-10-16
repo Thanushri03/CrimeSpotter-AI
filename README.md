@@ -101,7 +101,7 @@ Sample Scenario 1
 
  ![Alt text](Sample2.png)
  
-SampleScenario 1
+Sample Scenario 1
  
  ![Alt text](sample1.png)
 
