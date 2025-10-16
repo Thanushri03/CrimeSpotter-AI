@@ -95,10 +95,13 @@ print(f"Status: {result}, Confidence: {confidence:.2f}")
 
 ## 🖼️ Outputs
 
-Detection Performance
+Detection Performance :
+
+Sample Scenario 1
 
  ![Alt text](Sample2.png)
-
+ 
+SampleScenario 1
  
  ![Alt text](sample1.png)
 
