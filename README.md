@@ -1,6 +1,7 @@
 # CrimeSpotter-AI
 
 📌 Overview
+
 CrimeSpotter-AI is an AI-powered surveillance monitoring tool that performs:
 
 Automated anomaly detection using CNN-based deep learning models trained on diverse surveillance scenarios. The system classifies video frames as normal activities or various types of security threats including violence, theft, accidents, and dangerous events.
