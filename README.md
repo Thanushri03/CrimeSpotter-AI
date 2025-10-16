@@ -40,12 +40,12 @@ Built with **TensorFlow**,**Keras**, and **OpenCV**, this solution addresses cri
 
 ## 🚀 Technologies Used
 
-* 🧠 **TensorFlow/Keras **: Deep learning framework for model training
-* 🖼️  **OpenCV **: Image processing and video handling
-* 📊  **Scikit-learn **: Model evaluation and metrics calculation
-* 📈  **Matplotlib/Seaborn **: Performance visualization
-* 🎨  **Plotly **: Interactive charts and dashboards
-* 🐼  **Pandas/NumPy **: Data manipulation and analysis
+* 🧠 **TensorFlow/Keras**: Deep learning framework for model training
+* 🖼️  **OpenCV**: Image processing and video handling
+* 📊  **Scikit-learn**: Model evaluation and metrics calculation
+* 📈  **Matplotlib/Seaborn**: Performance visualization
+* 🎨  **Plotly**: Interactive charts and dashboards
+* 🐼  **Pandas/NumPy**: Data manipulation and analysis
 
 ---
 
@@ -86,10 +86,10 @@ print(f"Status: {result}, Confidence: {confidence:.2f}")
 
 ## 📈 Model Performance
 
-* ✅ **Accuracy **: 80% achieved on test dataset
-* 📊 **Precision **: 82% for anomaly detection
-* 🔁 **Recall **: 78% capturing true positives
-* 🎯 **F1-Score **: 80% balanced performance metric
+* ✅ **Accuracy**: 80% achieved on test dataset
+* 📊 **Precision**: 82% for anomaly detection
+* 🔁 **Recall**: 78% capturing true positives
+* 🎯 **F1-Score**: 80% balanced performance metric
 
 ---
 
