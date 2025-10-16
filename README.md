@@ -1,54 +1,56 @@
 # CrimeSpotter-AI
 
-📌 Overview
 
-CrimeSpotter-AI is an AI-powered surveillance monitoring tool that performs:
+---
 
-Automated anomaly detection using CNN-based deep learning models trained on diverse surveillance scenarios. The system classifies video frames as normal activities or various types of security threats including violence, theft, accidents, and dangerous events.
+##📌 Overview
 
-Built with TensorFlow, Keras, and OpenCV, this solution addresses critical security challenges by combining robust computer vision with real-time classification capabilities.
+**CrimeSpotter**  is an AI-powered surveillance monitoring tool that performs:
 
-🛠️ Features
-🧠 CNN-based detection for accurate anomaly classification across multiple categories
+* Automated anomaly detection using CNN-based deep learning models trained on diverse  surveillance scenarios. 
+* The system classifies video frames as normal activities or various types of security threats including violence, theft, accidents, and dangerous events.
 
-🚨 Multi-class detection: Fighting, Assault, Burglary, Robbery, Shoplifting, Explosions, and more
+Built with **TensorFlow**,**Keras**, and **OpenCV**, this solution addresses critical security challenges by combining robust computer vision with real-time classification capabilities.
 
-📊 Comprehensive metrics: ROC-AUC, precision, recall, F1-score analysis
+---
 
-🖼️ Data augmentation with rotation, shifting, flipping, and zoom transformations
+##🛠️ Features
 
-📈 Performance visualization: Training history, confusion matrices, ROC curves
+* 🧠**CNN-based detection** : for accurate anomaly classification across multiple categories
+* 🚨**Multi-class detection**: Fighting, Assault, Burglary, Robbery, Shoplifting, Explosions, and more
+* 📊**Comprehensive metrics**: ROC-AUC, precision, recall, F1-score analysis
+* 🖼️**Data augmentation**: with rotation, shifting, flipping, and zoom transformations
+* 📈**Performance visualization**: Training history, confusion matrices, ROC curves
 
-🔄 Real-time capable architecture for live surveillance integration
+---
 
-🔁 Workflow
-Upload surveillance footage or image sequences
+##🔁 Workflow
 
-Preprocess and augment training data
+```
+1.Upload surveillance footage or image sequences
+2.Preprocess and augment training data
+3.Train CNN model with class-balanced datasets
+4.Detect anomalies in real-time or batch processing
+5.Generate alerts and visual evidence
+6.Produce comprehensive reports with confidence scores
+```
 
-Train CNN model with class-balanced datasets
 
-Detect anomalies in real-time or batch processing
+---
 
-Generate alerts and visual evidence
+##🚀 Technologies Used
 
-Produce comprehensive reports with confidence scores
+*🧠 **TensorFlow/Keras **: Deep learning framework for model training
+*🖼️  **OpenCV **: Image processing and video handling
+*📊  **Scikit-learn **: Model evaluation and metrics calculation
+*📈  **Matplotlib/Seaborn **: Performance visualization
+*🎨  **Plotly **: Interactive charts and dashboards
+*🐼  **Pandas/NumPy **: Data manipulation and analysis
 
-🚀 Technologies Used
-🧠 TensorFlow/Keras: Deep learning framework for model training
+---
 
-🖼️ OpenCV: Image processing and video handling
-
-📊 Scikit-learn: Model evaluation and metrics calculation
-
-📈 Matplotlib/Seaborn: Performance visualization
-
-🎨 Plotly: Interactive charts and dashboards
-
-🐼 Pandas/NumPy: Data manipulation and analysis
-
-🧪 Sample Detection Code
-python
+##🧪 Sample Detection Code
+```python
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
@@ -78,17 +80,20 @@ def detect_anomaly(frame):
 frame = cv2.imread('surveillance_frame.jpg')
 result, confidence = detect_anomaly(frame)
 print(f"Status: {result}, Confidence: {confidence:.2f}")
-📈 Model Performance
-✅ Accuracy: 80% achieved on test dataset
+```
 
-📊 Precision: 82% for anomaly detection
+---
 
-🔁 Recall: 78% capturing true positives
+##📈 Model Performance
 
-🎯 F1-Score: 80% balanced performance metric
+*✅ **Accuracy **: 80% achieved on test dataset
+*📊 **Precision **: 82% for anomaly detection
+*🔁 **Recall **: 78% capturing true positives
+*🎯 **F1-Score **: 80% balanced performance metric
 
+---
 
-🖼️ Outputs
+##🖼️ Outputs
 
 Detection Performance
 
